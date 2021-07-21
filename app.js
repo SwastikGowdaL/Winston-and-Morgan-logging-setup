@@ -2,7 +2,6 @@ const express = require("express");
 const logger = require("./logger");
 const fs = require("fs");
 require("dotenv").config();
-const config = require('config');
 const path = require('path');
 const morgan = require('morgan');
 
